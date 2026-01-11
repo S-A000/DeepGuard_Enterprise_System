@@ -1,0 +1,25 @@
+# --- Server & API ---
+fastapi
+uvicorn[standard]
+python-multipart
+requests
+
+# --- AI & Deep Learning ---
+torch
+torchvision
+numpy
+pandas
+scikit-learn
+
+# --- Video & Image Processing ---
+opencv-python
+pillow
+matplotlib
+
+# --- Science & Physics (For PINN/FFT) ---
+scipy
+
+# --- Database & Utilities ---
+sqlalchemy
+python-dotenv
+aiofiles
