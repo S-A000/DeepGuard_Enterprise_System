@@ -10,6 +10,12 @@ torchvision
 numpy
 pandas
 scikit-learn
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+opencv-python==4.8.1.78
+tqdm==4.66.1
+
 
 # --- Video & Image Processing ---
 opencv-python
