@@ -6,6 +6,8 @@ import AdminLogin from "./pages/AdminLogin";
 import Register from "./pages/Register"; // Naya Import
 import Dashboard from "./pages/Dashboard";
 import History from "./pages/History";
+import UserManagement from "./pages/UserManagement";
+import AssignMember from "./pages/AssignMember";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         {/* Protected Routes (Inka Layout aap ne pehle set kiya hua hai) */}
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/history" element={<History />} />
+        <Route path="/user-management" element={<UserManagement />} />
+        <Route path="/assign-member" element={<AssignMember />} />
       </Routes>
     </Router>
   );
